@@ -1,0 +1,245 @@
+body.body
+{
+ background-color: black;
+ font-family: "Verdana";
+ background-image: url('images/background.jpg');
+ background-repeat: no-repeat;
+ background-position: center bottom;
+ background-attachment: fixed;
+ text-align: center;
+ overflow-x: hidden;
+}
+a.small
+{
+ color: white;
+ text-decoration: none;
+ font-size: x-small;
+}
+a.link
+{
+ color: white;
+ text-decoration: none;
+ font-weight: bold;
+ font-size: small;
+}
+a.link:hover, a.small:hover
+{
+ color: orange;
+}
+textarea.textbox
+{
+ font-size: medium;
+ background-color: #b7c5cf;
+ border: 1px solid #000;
+}
+textarea.textbox:focus
+{
+ font-size: medium;
+ background-color: #a6b0b7;
+ border: 1px solid #eee;
+ outline: none;
+}
+textarea.textbox:hover
+{
+ font-size: medium;
+ border: 1px solid #eee;
+}
+input.textbox, select.dropdown
+{
+ font-size: small;
+ background-color: #b7c5cf;
+ border: 1px solid #000;
+ padding: 3px;
+}
+input.textbox:focus, select.dropdown:focus
+{
+ font-size: small;
+ background-color: #a6b0b7;
+ border: 1px solid #eee;
+ outline: none;
+}
+input.textbox:hover, select.dropdown:hover
+{
+ font-size: small;
+ border: 1px solid #eee;
+}
+input.button
+{
+ font-size: small;
+ background-color: #b7c5cf;
+ border: 1px solid #000;
+ padding: 7px;
+}
+input.button:focus
+{
+ font-size: small;
+ background-color: #a6b0b7;
+ border: 1px solid #eee;
+ outline: none;
+}
+input.button:hover
+{
+ font-size: small;
+ border: 1px solid #eee;
+}
+input.numeric
+{
+ text-align: right;
+}
+div.content
+{
+ background-color: #758d9b;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+ border: 1px solid #000;
+ display: inline-block;
+ padding: 10px;
+ font-size: small;
+ text-align: right;
+ color: #000;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 2px;
+ margin-bottom: 2px;
+}
+div.container
+{
+ display: table;
+ margin-left: auto;
+ margin-right: auto;
+}
+div.row
+{
+ display: table-row;
+}
+div.cell
+{
+ display: table-cell;
+ padding: 2px;
+ vertical-align: middle;
+}
+div.ad
+{
+ display: inline-block;
+ vertical-align: top;
+ position: fixed;
+ left: 20px;
+ background-color: #49606d;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+ border: 1px solid #000;
+ padding: 10px;
+ font-size: small;
+ text-align: right;
+ color: #000;
+ margin: 5px;
+ margin-top: 12px;
+}
+div.node
+{
+ width: 1153px;
+ height: 637px;
+ background-repeat: no-repeat;
+}
+div.slots
+{
+ position: relative;
+ top: 30px;
+ left: 330px;
+}
+div.module
+{
+ width: 300px;
+ height: 300px;
+ background-repeat: no-repeat;
+}
+div.buildQueue
+{
+ display: inline-block;
+ background-image: url('images/menuBackground.png');
+ background-repeat: repeat-x repeat-y;
+ padding: 10px;
+ border-radius: 5px;
+ position: relative;
+ top: -467px;
+ right: 11px;
+ max-height: 530px;
+ overflow: auto;
+}
+div.inline
+{
+ display: inline-block;
+}
+div.topMenu
+{
+ background-color: #49606d;
+ white-space: nowrap;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+ border: 1px solid #000;
+ display: inline-block;
+ padding: 10px;
+ font-size: small;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ float: left;
+}
+div.bottomMenu
+{
+ background-color: #49606d;
+ white-space: nowrap;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+ border: 1px solid #000;
+ display: inline-block;
+ padding: 10px;
+ font-size: small;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 10px;
+ margin-bottom: 5px;
+}
+div.message
+{
+ background-color: #758d9b;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+ border: 1px solid #000;
+ display: inline-block;
+ padding: 10px;
+ font-size: small;
+ color: #000;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 2px;
+ margin-bottom: 2px;
+}
+img.module
+{
+ border: 5px solid transparent;
+ border-radius: 15px;
+ width: 150px;
+}
+img.module:hover
+{
+ border: 5px solid white;
+}
+img.resource
+{
+ max-height: 30px;
+ border: 0px;
+}
+img.item
+{
+ max-height: 72px;
+ border: 0px;
+}
+img
+{
+ border: 0px;
+}
